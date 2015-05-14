@@ -1,0 +1,16 @@
+{
+  "name": "mocha-audio-reporter",
+  "version": "0.0.2",
+  "description": "play sounds when your tests run",
+  "main": "mocha-audio-reporter.js",
+  "scripts": {
+    "test": "echo \"tests are in the mocha-audio-reporter-test module\" && exit 1"
+  },
+  "author": "aumkara@gmail.com",
+  "readme": "README.md",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "mario-sounds": "^0.0.1"
+  }
+}
