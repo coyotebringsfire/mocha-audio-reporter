@@ -1,6 +1,6 @@
 {
   "name": "mocha-audio-reporter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "play sounds when your tests run",
   "main": "mocha-audio-reporter.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "debug": "^2.1.3",
-    "singer": "0.0.4"
+    "lame": "^1.2.2",
+    "speaker": "^0.2.5"
   }
 }
