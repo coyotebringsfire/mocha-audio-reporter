@@ -35,11 +35,13 @@ var mocha = new Mocha({
     reporterOption: {
 	    mocha-audio-reporter: {
 		    stdout: '/dev/null',
-	    	onStart: __dirname+"/audio/start.mp3",
-	    	onPass: __dirname+"/audio/pass.mp3",
-	    	onFail: __dirname+"/audio/fail.mp3",
-	    	onSuiteFailure: __dirname+"/audio/suite_failure.mp3",
-	    	onSuitePass: __dirname+"/audio/suite_pass.mp3"
+	        options: {
+		        onStart: __dirname+"/audio/start.mp3",
+		        onPass: __dirname+"/audio/pass.mp3",
+		        onFail: __dirname+"/audio/fail.mp3",
+		        onSuiteFailure: __dirname+"/audio/suite_failure.mp3",
+		        onSuitePass: __dirname+"/audio/suite_pass.mp3"
+		    }
 	    },
 	    spec: {
 		    stdout: "-"
