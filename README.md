@@ -2,6 +2,18 @@
 ##Description
 A reporter for mocha that plays mp3 tunes on mocha events
 
+##Tests
+The automated tests for this reporter are in mocha-audio-reporter-test repo
+```sh
+$ git clone https://github.com/coyotebringsfire/mocha-audio-reporter-test.git
+...
+$ cd mocha-audio-reporter-test
+mocha-audio-reporter-test $ npm install
+...
+mocha-audio-reporter-test$ npm test
+...
+```
+
 ##Usage
 
 ```sh
