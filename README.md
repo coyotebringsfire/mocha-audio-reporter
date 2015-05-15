@@ -2,6 +2,9 @@
 ##Description
 A reporter for mocha that plays mp3 tunes on mocha events
 
+##Known Issues
+the lame encoder and/or speaker aren't very stable and have a tendency to crash
+
 ##Tests
 The automated tests for this reporter are in mocha-audio-reporter-test repo
 ```sh
