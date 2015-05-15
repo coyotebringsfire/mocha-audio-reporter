@@ -1,7 +1,6 @@
 "use strict";
 var debug=require('debug')('mocha:audioreporter'),
-    Singer = require('singer'),
-    sounds=require('mario-sounds');
+    Singer = require('singer');
 
 module.exports = mocha_audio_reporter;
 
