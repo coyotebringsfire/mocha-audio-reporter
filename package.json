@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"tests are in the mocha-audio-reporter-test module\" && exit 1"
   },
+  "keywords": [
+    "mocha",
+    "audio",
+    "reporter"
+  ],
   "author": "aumkara@gmail.com",
   "readme": "README.md",
   "license": "ISC",
