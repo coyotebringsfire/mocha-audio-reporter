@@ -23,7 +23,15 @@ function mocha_audio_reporter(runner, options) {
     
     fs.createReadStream(file)
       .pipe(new lame.Decoder)
-      .pipe(speaker);
+      .pipe(speaker)
+      .on('error', function onError(err) {
+        debug("err: %j", err);
+        if( err.code === "ENOENT" ) {
+          //play the file option as speech through google
+          debug("getting %s from google", file);
+        }
+      });
+
     return speaker;
   };
 
